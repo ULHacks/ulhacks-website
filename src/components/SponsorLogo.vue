@@ -1,8 +1,8 @@
 <template lang="pug">
-.max-w-2
+.max-w-xs.transform(class='hover:scale-105 transition-transform')
 	a(:href='websiteUrl')
-	img(:src='logoPath', :alt='name')
-	.sponsor
+		img(:src='logoPath', :alt='name')
+		.sponsor
 </template>
 
 <script>
