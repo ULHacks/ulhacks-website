@@ -1,7 +1,7 @@
 <template lang="pug">
 .max-w-2
 	a(:href='websiteUrl')
-	img(:src='logoPath')
+	img(:src='logoPath', :alt='name')
 	.sponsor
 </template>
 
@@ -10,6 +10,10 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
 	props: {
+		name: {
+			type: String,
+			required: true,
+		},
 		logoPath: {
 			type: String,
 			required: true,

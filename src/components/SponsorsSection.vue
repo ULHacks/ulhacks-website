@@ -10,7 +10,8 @@ import SectionWrapper from '~/components/SectionWrapper.vue';
 
 const sponsors = [
 	{
-		name: 'echoAR'
+		name: 'echoAR',
+
 	}
 ]
 

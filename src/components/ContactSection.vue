@@ -20,14 +20,14 @@ SectionWrapper#contact
 			button.border.rounded.p-4.m-2(type='submit', name='submit') Send
 		.contact__contact-details
 			.text-2xl.font-bold.p-2.px-4 Keep In Touch
-			.flex.flex-row.items-center.p-4
-				font-awesome-icon(:icon='["fas", "envelope"]', size='lg')
+			.flex.flex-row.p-4
+				font-awesome-icon(:icon='["fas", "envelope"]', class='text-4xl')
 				.w-4
 				.flex.flex-col
 					a.font-bold(href='mailto:contact@ulhacks.com') contact@ulhacks.com
 					p Questions are always welcome!
-			.flex.flex-row.items-center.p-4
-				font-awesome-icon(:icon='["fab", "instagram"]', size='lg')
+			.flex.flex-row.p-4
+				font-awesome-icon(:icon='["fab", "instagram"]' class='text-4xl')
 				.w-4
 				.flex.flex-col
 					a.font-bold(href='https://www.instagram.com/ULHacks') @ULHacks
