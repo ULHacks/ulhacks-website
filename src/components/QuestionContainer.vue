@@ -1,5 +1,5 @@
 <template lang="pug">
-.border-2.rounded-md.flex.flex-col.mx-16.my-2
+.border-2.rounded-md.flex.flex-col.mx-16.my-2(data-aos='fade-up')
 	.p-6.flex-1.cursor-pointer(@click='toggleAnswer') {{ question }}
 	.transition-height.ease-in-out.duration-500.overflow-y-hidden(
 		ref='answerEl',

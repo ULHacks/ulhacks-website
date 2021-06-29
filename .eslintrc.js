@@ -26,6 +26,7 @@ module.exports = {
 		'simple-import-sort/exports': 'error',
 		'@typescript-eslint/no-non-null-assertion': 'off',
 		'import/prefer-default-export': 'off',
+		'@typescript-eslint/no-var-requires': 'off',
 	},
 	settings: {
 		'import/resolver': {

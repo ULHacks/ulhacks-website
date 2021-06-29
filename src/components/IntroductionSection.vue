@@ -2,10 +2,11 @@
 SectionWrapper#introduction
 	.flex.flex-col(class='md:flex-row')
 		img.mb-12.w-60.max-w-sm.self-center.flex-1(
+			data-aos='fade-right',
 			src='@/assets/logo.png',
 			class='md:mb-0 md:mr-16'
 		)
-		.flex-1
+		.flex-1(data-aos='fade-left')
 			.px-12.pb-3.text-3xl.font-bold.text-center Introducing ULHacks
 			.whitespace-pre-wrap(v-text='ulHacksDescription')
 </template>

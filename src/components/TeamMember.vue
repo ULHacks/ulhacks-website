@@ -1,15 +1,27 @@
 <template lang="pug">
-.m-6
-	img.h-52.w-52.object-cover.rounded-lg(:src='photoUrl')
-	.text-xl.text-center.my-4 {{ name }}
+.m-6.max-w-xs
+	.aspect-w-1.aspect-h-1
+		img.border-2.w-full.object-cover.rounded-lg(:src='photoUrl')
+	.text-xl.text-center.my-4.font-bold {{ name }}
+	.text-gray-500 {{ description }}
 </template>
 
 <script>
 export default {
-	name: 'TeamMember.vue',
+	name: 'TeamMember',
 	props: {
-		name: String,
-		photoUrl: String,
+		name: {
+			type: String,
+			required: true,
+		},
+		description: {
+			type: String,
+			required: true,
+		},
+		photoUrl: {
+			type: String,
+			required: true,
+		},
 	},
 };
 </script>

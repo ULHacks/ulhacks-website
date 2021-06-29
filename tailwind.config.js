@@ -1,5 +1,8 @@
+const aspectRatioPlugin = require('@tailwindcss/aspect-ratio');
+
 module.exports = {
 	purge: ['./src/**/*.vue'],
+	mode: 'jit',
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
@@ -15,5 +18,5 @@ module.exports = {
 	variants: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [aspectRatioPlugin],
 };
