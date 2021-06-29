@@ -11,7 +11,7 @@
 			.flex.flex-row.align-middle
 				calendar-icon.h-8.w-8
 				.w-2
-				.text-lg.font-bold.leading-loose August 27th - 29th, 2021
+				.text-lg.font-bold.leading-loose August 20th - 22nd, 2021
 	#particles-js.hero-banner__particles.h-screen
 </template>
 
