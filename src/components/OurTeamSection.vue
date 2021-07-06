@@ -32,7 +32,7 @@ const teamMembers = [
 		name: 'George Zhang',
 		photoUrl: '/images/george_zhang.jpg',
 		description:
-			'Hey all! Learned how to code in Grade 6. Been procrastinating ever since.',
+			'Hey all. I enjoy programming and creating random projects. I also like doing competitive programming and code golfing. In my free time I play games and make music.',
 	},
 	{
 		name: 'David Dragon He',
