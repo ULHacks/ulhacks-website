@@ -2,12 +2,13 @@
 SectionWrapper#sponsors
 	.flex-1.flex.flex-col.items-center(data-aos='fade-up')
 		.text-6xl.font-bold.text-center.mb-8 Sponsors
-		SponsorLogo(
-			v-for='sponsor in sponsors',
-			:name='sponsor.name',
-			:logoPath='sponsor.logoPath',
-			:websiteUrl='sponsor.websiteUrl'
-		)
+		.flex.flex-row.items-center
+			SponsorLogo(
+				v-for='sponsor in sponsors',
+				:name='sponsor.name',
+				:logoPath='sponsor.logoPath',
+				:websiteUrl='sponsor.websiteUrl'
+			)
 </template>
 
 <script lang="ts">
@@ -19,6 +20,11 @@ const sponsors = [
 		name: 'echoAR',
 		logoPath: '/images/sponsors/echo_ar.png',
 		websiteUrl: 'https://echoar.xyz',
+	},
+	{
+		name: 'AoPS',
+		logoPath: '/images/sponsors/aops.png',
+		websiteUrl: 'https://artofproblemsolving.com/',
 	},
 ];
 

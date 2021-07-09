@@ -1,5 +1,5 @@
 <template lang="pug">
-.max-w-xs.transform(class='hover:scale-105 transition-transform')
+.max-w-xs.m-4.transform(class='hover:scale-105 transition-transform')
 	a(:href='websiteUrl')
 		img(:src='logoPath', :alt='name')
 		.sponsor
