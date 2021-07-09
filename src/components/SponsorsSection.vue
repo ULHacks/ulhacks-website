@@ -2,7 +2,7 @@
 SectionWrapper#sponsors
 	.flex-1.flex.flex-col.items-center(data-aos='fade-up')
 		.text-6xl.font-bold.text-center.mb-8 Sponsors
-		.flex.flex-row.items-center
+		.flex.flex-row.items-center.flex-wrap.justify-center
 			SponsorLogo(
 				v-for='sponsor in sponsors',
 				:name='sponsor.name',
@@ -25,6 +25,11 @@ const sponsors = [
 		name: 'AoPS',
 		logoPath: '/images/sponsors/aops.png',
 		websiteUrl: 'https://artofproblemsolving.com/',
+	},
+	{
+		name: 'Wolfram|Alpha',
+		logoPath: '/images/sponsors/wolfram-alpha.png',
+		websiteUrl: 'https://www.wolframalpha.com/',
 	},
 ];
 
