@@ -17,9 +17,14 @@ import SponsorLogo from '~/components/SponsorLogo.vue';
 
 const sponsors = [
 	{
-		name: 'echoAR',
-		logoPath: '/images/sponsors/echo_ar.png',
-		websiteUrl: 'https://echoar.xyz',
+		name: 'Linode',
+		logoPath: '/images/sponsors/linode.png',
+		websiteUrl: 'https://linode.com',
+	},
+	{
+		name: 'Wolfram|Alpha',
+		logoPath: '/images/sponsors/wolfram-alpha.png',
+		websiteUrl: 'https://www.wolfram.com/',
 	},
 	{
 		name: 'AoPS',
@@ -27,10 +32,10 @@ const sponsors = [
 		websiteUrl: 'https://artofproblemsolving.com/',
 	},
 	{
-		name: 'Wolfram|Alpha',
-		logoPath: '/images/sponsors/wolfram-alpha.png',
-		websiteUrl: 'https://www.wolfram.com/',
-	},
+		name: 'echoAR',
+		logoPath: '/images/sponsors/echo_ar.png',
+		websiteUrl: 'https://echoar.xyz',
+	}
 ];
 
 export default {

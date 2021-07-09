@@ -44,7 +44,7 @@ const teamMembers = [
 		name: 'Kevin Wang',
 		photoUrl: '/images/kevin_wang.jpg',
 		description:
-			"Hi, i'm Kevin, and I'm passionate about coding and mathematics. I mainly program in Python and also experiment with graphic design on the side.",
+			"Hi, I'm Kevin, and I'm passionate about coding and mathematics. I mainly program in Python and also experiment with graphic design on the side.",
 	},
 	{
 		name: 'Kevin Xu',
