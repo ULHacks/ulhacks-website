@@ -29,7 +29,7 @@ const sponsors = [
 	{
 		name: 'Wolfram|Alpha',
 		logoPath: '/images/sponsors/wolfram-alpha.png',
-		websiteUrl: 'https://www.wolframalpha.com/',
+		websiteUrl: 'https://www.wolfram.com/language/',
 	},
 ];
 
