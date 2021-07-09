@@ -43,7 +43,7 @@ const questions = [
 	{
 		question: 'Can I participate with a team?',
 		answer:
-			"Absolutely! While you are allowed to create a project on your own, we encourage you to create a team with friends, and we'll also be hosting some team-creation events at ULHacks for those who are looking to hack with a team! The maximum team size is 4 people.",
+			"Absolutely! While you are allowed to create a project on your own, we encourage you to create a team with friends and/or new connections at ULHacks, and we'll also be hosting team-formation activities for those who are looking to hack with a team! The maximum team size is 4 people.",
 	},
 ];
 
