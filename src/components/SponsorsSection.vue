@@ -35,7 +35,12 @@ const sponsors = [
 		name: 'echoAR',
 		logoPath: '/images/sponsors/echo_ar.png',
 		websiteUrl: 'https://echoar.xyz',
-	}
+	},
+	{
+		name: 'Repl.it',
+		logoPath: '/images/sponsors/replit.png',
+		websiteUrl: 'https://replit.com',
+	},
 ];
 
 export default {
