@@ -12,6 +12,8 @@
 				calendar-icon.h-8.w-8
 				.w-2
 				.text-lg.font-bold.leading-loose August 20th - 22nd, 2021
+		.flex.flex-row.justify-center.items-center.h-32.text-xl
+			a(href='https://ulhacks.devpost.com/') Devpost
 	#particles-js.hero-banner__particles.h-screen
 </template>
 
@@ -43,7 +45,6 @@ export default {
 	left: 50%;
 	transform: translateX(-50%);
 	color: #ffffff;
-	pointer-events: none;
 }
 .hero-banner__container,
 .hero-banner__content,
