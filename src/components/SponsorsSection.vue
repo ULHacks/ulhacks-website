@@ -28,7 +28,7 @@ const sponsors = [
 	},
 	{
 		name: 'Leading Learners',
-		logoPath: '/images/sponsors/leading-leaders.png',
+		logoPath: '/images/sponsors/leading-learners.png',
 		websiteUrl: 'https://linktr.ee/leadinglearners'
 	},
 	{

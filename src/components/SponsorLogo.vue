@@ -1,7 +1,7 @@
 <template lang="pug">
-.max-w-xs.m-6.transform(class='hover:scale-105 transition-transform')
+.m-6.w-80.h-40.transform.transition-transform(class='hover:scale-105')
 	a(:href='websiteUrl')
-		img(:src='logoPath', :alt='name')
+		img.h-full.w-full(:src='logoPath', :alt='name' class='object-contain')
 		.sponsor
 </template>
 
