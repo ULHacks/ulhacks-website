@@ -27,13 +27,18 @@ const sponsors = [
 		websiteUrl: 'https://www.wolfram.com/',
 	},
 	{
+		name: 'Leading Learners',
+		logoPath: '/images/sponsors/leading-leaders.png',
+		websiteUrl: 'https://linktr.ee/leadinglearners'
+	},
+	{
 		name: 'AoPS',
 		logoPath: '/images/sponsors/aops.png',
 		websiteUrl: 'https://artofproblemsolving.com/',
 	},
 	{
 		name: 'echoAR',
-		logoPath: '/images/sponsors/echo_ar.png',
+		logoPath: '/images/sponsors/echo-ar.png',
 		websiteUrl: 'https://echoar.xyz',
 	},
 	{
