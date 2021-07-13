@@ -13,7 +13,10 @@
 				.w-2
 				.text-lg.font-bold.leading-loose August 13th - 15th, 2021
 		.flex.flex-row.justify-center.items-center.h-32.text-xl
-			a(href='https://ulhacks.devpost.com/') Devpost
+			a.bg-white.text-ul-blue.py-4.px-8.rounded-lg(
+				href='https://ulhacks.devpost.com/'
+				class='transform hover:scale-105 transition-transform'
+			) Devpost
 	#particles-js.hero-banner__particles.h-screen
 </template>
 

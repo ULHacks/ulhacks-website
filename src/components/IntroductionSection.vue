@@ -8,7 +8,7 @@ SectionWrapper#introduction
 		)
 		.flex-1(data-aos='fade-left')
 			.px-12.pb-3.text-3xl.font-bold.text-center Introducing ULHacks
-			.whitespace-pre-wrap(v-text='ulHacksDescription')
+			.description.text-lg.whitespace-pre-wrap(v-html='ulHacksDescription')
 </template>
 
 <script>
@@ -17,13 +17,11 @@ import outdent from 'outdent';
 import SectionWrapper from './SectionWrapper.vue';
 
 const ulHacksDescription = outdent`
-	At ULHacks, you have 36 hours to create a project which empowers learning.
+	Are you ready to shape the future of education?
 
-	We believe that learning is an invaluable skill. No matter your career or your field, the rapid innovation over the past few decades have demonstrated the need to adapt your skills to ever-changing technology—or they risk falling obsolete.
+	All high school and university students are invited to attend ULHacks, a virtual hackathon from August 13th to 15th with the theme of empowering learning! Over the course of 36 hours, you'll have the opportunity to create a project that helps make learning easier, quicker, and more accessible to everybody. We'll be providing mentors, workshops, and activities that will help turn your weekend into an unforgettable experience.
 
-	The secret to evolving your skills for the modern age lies in perfecting the foundational skill of learning, which has never been more crucial to a successful future. 
-
-	Luckily, technology has made learning more accessible than ever. It has empowered people to create and share tools and projects that empower others to learn a subject more quickly and effectively. At ULHacks, we want you to leverage today’s technologies to create these projects: projects that empower learning.
+	More information about ULHacks can be found at our <a href='https://ulhacks.devpost.com'>Devpost page</a>. If you know anybody who you think would be interested in attending, please don't hesitate to spread the word with them! We can't wait to see all your amazing ideas and projects that you will build at ULHacks!
 `;
 
 export default {
@@ -37,4 +35,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped lang='postcss'>
+.description > :deep(a) {
+	@apply text-ul-blue
+}
+</style>
