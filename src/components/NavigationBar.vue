@@ -57,6 +57,7 @@ export default {
 		const scrollToId = (e) => {
 			const elementId = e.target.href.split('#', 2)[1];
 			e.preventDefault();
+			window.location.hash = `#${elementId}`;
 			document.getElementById(elementId).scrollIntoView({ behavior: 'smooth' });
 		};
 

@@ -51,4 +51,8 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	color: #2c3e50;
 }
+
+:target {
+	scroll-margin-top: 5rem;
+}
 </style>
