@@ -1,22 +1,30 @@
 <template lang="pug">
-.navigation-bar__container.w-full.flex.flex-row.justify-between.items-center.py-4.px-8(
-	:class='{ "navigation-bar__container--opaque": isPinned }'
+mixin link(href, name)
+	a.px-8.py-2(
+		class='hover:text-ul-blue-dark md:py-0 md:px-4',
+		href=href,
+		@click='scrollToId'
+	)= name
+
+.fixed.z-50.w-full.flex.flex-row.justify-between.items-center.py-4.px-8.transition-all(
+	:class='[isPinned ? "bg-gray-800" : "bg-transparent"]'
 )
 	img.h-20(src='@/assets/logo.png')
 	.navigation-bar__tabs-container.flex.flex-col.items-end
-		MenuIcon.navigation-bar__menu-button.h-16.w-16(
-			@click='onMenuToggle',
-			v-show='tabsCollapsedIntoMenu'
-		)
-		.navigation-bar__tabs(
-			:class='{ "navigation-bar__tabs--desktop": !tabsCollapsedIntoMenu, "navigation-bar__tabs--mobile": tabsCollapsedIntoMenu }',
-			v-show='menuExpanded || !tabsCollapsedIntoMenu'
-		)
-			a(href='#introduction', @click='scrollToId') About
-			a(href='#questions', @click='scrollToId') FAQ
-			a(href='#sponsors', @click='scrollToId') Sponsors
-			a(href='#team', @click='scrollToId') Our Team
-			a(href='#contact', @click='scrollToId') Contact
+		.relative
+			MenuIcon.text-white.h-14.w-14.cursor-pointer.transform.transition-transform(
+				class='hover:scale-105 md:hidden',
+				@click='onMenuToggle'
+			)
+			.flex.bg-white.rounded-md.text-ul-blue.absolute.top-full.right-0.py-2.border.flex-col(
+				class='md:flex-row md:block md:bg-transparent md:border-none md:text-white md:static',
+				:class='{ hidden: !menuExpanded }'
+			)
+				+link('#introduction', 'About')
+				+link('#questions', 'FAQ')
+				+link('#sponsors', 'Sponsor')
+				+link('#team', 'Our Team')
+				+link('#contact', 'Contact')
 </template>
 
 <script>
@@ -34,24 +42,26 @@ export default {
 	},
 	setup(props) {
 		const isPinned = ref(false);
-		const tabsCollapsedIntoMenu = ref(false);
 		const menuExpanded = ref(false);
 
-		const checkScroll = () => {
+		function checkScroll() {
 			isPinned.value =
 				window.document.querySelector('html').scrollTop >
 				props.scrollBreakpoint;
-		};
+		}
 
-		const checkWindowSize = () => {
-			tabsCollapsedIntoMenu.value = document.body.clientWidth < 700;
-		};
+		function checkResize() {
+			// Close menu when the screen size is large enough
+			if (window.innerWidth > 768) {
+				menuExpanded.value = false;
+			}
+		}
 
 		onMounted(() => {
 			checkScroll();
-			checkWindowSize();
-			document.addEventListener('scroll', checkScroll);
-			document.defaultView.addEventListener('resize', checkWindowSize);
+			checkResize();
+			window.addEventListener('scroll', checkScroll);
+			window.addEventListener('resize', checkResize);
 		});
 
 		const scrollToId = (e) => {
@@ -67,7 +77,6 @@ export default {
 
 		return {
 			isPinned,
-			tabsCollapsedIntoMenu,
 			menuExpanded,
 			scrollToId,
 			onMenuToggle,
@@ -75,40 +84,3 @@ export default {
 	},
 };
 </script>
-
-<style scoped>
-a {
-	color: #ffffff;
-	padding-left: 35px;
-}
-a:hover {
-	color: #666666;
-}
-
-.navigation-bar__container {
-	position: fixed;
-	z-index: 9999;
-	background-color: #00000000;
-	transition: background-color 0.2s;
-}
-
-.navigation-bar__container--opaque {
-	background-color: #222222;
-}
-
-.navigation-bar__menu-button {
-	color: #ffffff;
-}
-
-.navigation-bar__tabs {
-	display: flex;
-}
-
-.navigation-bar__tabs--desktop {
-	flex-direction: row;
-}
-
-.navigation-bar__tabs--mobile {
-	flex-direction: column;
-}
-</style>

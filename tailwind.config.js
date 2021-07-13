@@ -12,6 +12,7 @@ module.exports = {
 			colors: {
 				'ul-blue': '#3ea7dd',
 				'ul-blue-light': '#cee9f7',
+				'ul-blue-dark': '#155678',
 			},
 		},
 	},
