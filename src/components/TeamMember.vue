@@ -1,5 +1,5 @@
 <template lang="pug">
-.m-6.max-w-xs
+.m-6.w-80
 	.aspect-w-1.aspect-h-1
 		img.border-2.w-full.object-cover.rounded-lg(:src='photoUrl')
 	.text-xl.text-center.mt-4.font-bold {{ name }}
