@@ -4,10 +4,11 @@ SectionWrapper#team(data-aos='fade-up')
 		.text-6xl.font-bold.text-center.mb-5 Our Team
 	.flex.flex-row.flex-wrap.justify-evenly.m-12
 		TeamMember(
-			v-for='{ name, description, photoUrl } in teamMembers',
+			v-for='{ name, description, photoUrl, role } in teamMembers',
 			:name='name',
 			:description='description',
 			:photoUrl='photoUrl'
+			:role='role'
 		)
 </template>
 
@@ -49,7 +50,7 @@ const teamMembers = [
 		photoUrl: '/images/george_zhang.jpg',
 		description:
 			'Hey all. I enjoy programming and creating random projects. I also like doing competitive programming and code golfing. In my free time I play games and make music.',
-		role: 'Logistics & Developer'
+		role: 'Developer & Logistics'
 	},
 	{
 		name: 'David Dragon He',

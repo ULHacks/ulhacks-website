@@ -2,7 +2,8 @@
 .m-6.max-w-xs
 	.aspect-w-1.aspect-h-1
 		img.border-2.w-full.object-cover.rounded-lg(:src='photoUrl')
-	.text-xl.text-center.my-4.font-bold {{ name }}
+	.text-xl.text-center.mt-4.font-bold {{ name }}
+	.text-sm.text-center.text-gray-500.mb-4 {{ role }}
 	.text-gray-500 {{ description }}
 </template>
 
@@ -15,6 +16,10 @@ export default {
 			required: true,
 		},
 		description: {
+			type: String,
+			required: true,
+		},
+		role: {
 			type: String,
 			required: true,
 		},
