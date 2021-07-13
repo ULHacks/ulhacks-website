@@ -1,22 +1,23 @@
 <template lang="pug">
 .hero-banner__container.h-screen
 	.hero-banner__content.flex.flex-col.absolute.h-screen.justify-center
-		.text-7xl.text-center.font-black ULHacks 2021
-		.h-8
-		.flex.flex-row.flex-wrap.justify-evenly
-			.flex.flex-row.align-middle
-				location-marker-icon.h-8.w-8
-				.w-2
-				.text-lg.font-bold.leading-loose Virtual
-			.flex.flex-row.align-middle
-				calendar-icon.h-8.w-8
-				.w-2
-				.text-lg.font-bold.leading-loose August 13th - 15th, 2021
-		.flex.flex-row.justify-center.items-center.h-32.text-xl
-			a.bg-white.text-ul-blue.py-4.px-8.rounded-lg(
-				href='https://ulhacks.devpost.com/'
-				class='transform hover:scale-105 transition-transform'
-			) Devpost
+		div(class='mt-24 md:mt-none')
+			.text-7xl.text-center.font-black ULHacks 2021
+			.h-8
+			.flex.flex-row.flex-wrap.justify-evenly
+				.flex.flex-row.align-middle
+					location-marker-icon.h-8.w-8
+					.w-2
+					.text-lg.font-bold.leading-loose Virtual
+				.flex.flex-row.align-middle
+					calendar-icon.h-8.w-8
+					.w-2
+					.text-lg.font-bold.leading-loose August 13th - 15th, 2021
+			.flex.flex-row.justify-center.items-center.h-32.text-xl
+				a.bg-white.text-ul-blue.py-4.px-8.rounded-lg.transform.transition-transform(
+					href='https://ulhacks.devpost.com/',
+					class='hover:scale-105'
+				) Devpost
 	#particles-js.hero-banner__particles.h-screen
 </template>
 

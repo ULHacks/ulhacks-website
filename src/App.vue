@@ -1,6 +1,6 @@
 <template lang="pug">
 .flex.flex-col
-	NavigationBar(:scrollBreakpoint='200')
+	NavigationBar(:scrollBreakpoint='0')
 	HeroBanner
 	IntroductionSection
 	SectionSeparator
