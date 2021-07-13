@@ -32,6 +32,11 @@ const sponsors = [
 		websiteUrl: 'https://linktr.ee/leadinglearners'
 	},
 	{
+		name: 'Elegoo',
+		logoPath: '/images/sponsors/elegoo.png',
+		websiteUrl: 'https://elegoo.com'
+	},
+	{
 		name: 'AoPS',
 		logoPath: '/images/sponsors/aops.png',
 		websiteUrl: 'https://artofproblemsolving.com/',
