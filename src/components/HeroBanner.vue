@@ -11,7 +11,7 @@
 			.flex.flex-row.align-middle
 				calendar-icon.h-8.w-8
 				.w-2
-				.text-lg.font-bold.leading-loose August 20th - 22nd, 2021
+				.text-lg.font-bold.leading-loose August 13th - 15th, 2021
 		.flex.flex-row.justify-center.items-center.h-32.text-xl
 			a(href='https://ulhacks.devpost.com/') Devpost
 	#particles-js.hero-banner__particles.h-screen
