@@ -17,7 +17,7 @@
 				a.bg-white.text-ul-blue.py-4.px-8.rounded-lg.transform.transition-transform(
 					href='https://ulhacks.devpost.com/',
 					class='hover:scale-105'
-				) Devpost
+				) Register for ULHacks on Devpost!
 	#particles-js.hero-banner__particles.h-screen
 </template>
 
