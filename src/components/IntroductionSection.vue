@@ -19,7 +19,7 @@ import SectionWrapper from './SectionWrapper.vue';
 const ulHacksDescription = outdent`
 	Are you ready to shape the future of education?
 
-	All high school and university students are invited to attend ULHacks, a virtual hackathon from August 13th to 15th with the theme of empowering learning! Over the course of 36 hours, you'll have the opportunity to create a project that helps make learning easier, quicker, and more accessible to everybody. We'll be providing mentors, workshops, and activities that will help turn your weekend into an unforgettable experience.
+	All middle school, high school and university students are invited to attend ULHacks, a virtual hackathon from August 13th to 15th with the theme of empowering learning! Over the course of 36 hours, you (and optionally on a team with 3 other friends) will have the opportunity to create a project that helps make learning easier, quicker, and more accessible to everybody. We'll be providing mentors, workshops, and activities that will help turn your weekend into an unforgettable experience.
 
 	More information about ULHacks can be found at our <a href='https://ulhacks.devpost.com'>Devpost page</a>. If you know anybody who you think would be interested in attending, please don't hesitate to spread the word with them! We can't wait to see all your amazing ideas and projects that you will build at ULHacks!
 `;
