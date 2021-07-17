@@ -29,17 +29,27 @@ const sponsors = [
 	{
 		name: 'Leading Learners',
 		logoPath: '/images/sponsors/leading-learners.png',
-		websiteUrl: 'https://linktr.ee/leadinglearners'
+		websiteUrl: 'https://linktr.ee/leadinglearners',
 	},
 	{
 		name: 'Elegoo',
 		logoPath: '/images/sponsors/elegoo.png',
-		websiteUrl: 'https://elegoo.com'
+		websiteUrl: 'https://elegoo.com',
 	},
 	{
 		name: 'AoPS',
 		logoPath: '/images/sponsors/aops.png',
 		websiteUrl: 'https://artofproblemsolving.com/',
+	},
+	{
+		name: 'Magoosh',
+		logoPath: '/images/sponsors/magoosh.png',
+		websiteUrl: 'https://magoosh.com',
+	},
+	{
+		name: 'Voiceflow',
+		logoPath: '/images/sponsors/voiceflow.png',
+		websiteUrl: 'https://voiceflow.com',
 	},
 	{
 		name: 'echoAR',
