@@ -47,6 +47,11 @@ const sponsors = [
 		websiteUrl: 'https://magoosh.com',
 	},
 	{
+		name: 'Hack the North',
+		logoPath: '/images/sponsors/hackthenorth.png',
+		websiteUrl: 'https://hackthenorth.com',
+	},
+	{
 		name: 'Voiceflow',
 		logoPath: '/images/sponsors/voiceflow.png',
 		websiteUrl: 'https://voiceflow.com',
