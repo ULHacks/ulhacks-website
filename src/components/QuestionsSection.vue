@@ -45,6 +45,11 @@ const questions = [
 		answer:
 			"Absolutely! While you are allowed to create a project on your own, we encourage you to create a team with friends and/or new connections at ULHacks, and we'll also be hosting team-formation activities for those who are looking to hack with a team! The maximum team size is 4 people.",
 	},
+	{
+		question: 'Can I submit my project to multiple hackathons?',
+		answer:
+			"Unfortunately, we aren't accepting projects which are submitted to multiple hackathons.",
+	},
 ];
 
 export default {
