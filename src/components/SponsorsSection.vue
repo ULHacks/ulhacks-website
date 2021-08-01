@@ -22,6 +22,11 @@ const sponsors = [
 		websiteUrl: 'https://linode.com',
 	},
 	{
+		name: 'DigitalOcean',
+		logoPath: '/images/sponsors/digitalocean.png',
+		websiteUrl: 'https://digitalocean.com',
+	},
+	{
 		name: 'Wolfram|Alpha',
 		logoPath: '/images/sponsors/wolfram-alpha.png',
 		websiteUrl: 'https://www.wolfram.com/',
