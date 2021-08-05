@@ -32,6 +32,11 @@ const sponsors = [
 		websiteUrl: 'https://www.wolfram.com/',
 	},
 	{
+		name: 'Huawei',
+		logoPath: '/images/sponsors/huawei.png',
+		websiteUrl: 'https://www.huawei.com',
+	},
+	{
 		name: 'Leading Learners',
 		logoPath: '/images/sponsors/leading-learners.png',
 		websiteUrl: 'https://linktr.ee/leadinglearners',
