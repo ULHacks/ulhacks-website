@@ -76,6 +76,11 @@ const sponsors = [
 		logoPath: '/images/sponsors/replit.png',
 		websiteUrl: 'https://replit.com',
 	},
+	{
+		name: 'EconHacks',
+		logoPath: '/images/sponsors/econhacks.png',
+		websiteUrl: 'https://econhacks.org/',
+	},
 ];
 
 export default {
