@@ -1624,6 +1624,11 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vue/devtools-api@^6.0.0-beta.14":
+  version "6.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.0.0-beta.15.tgz#ad7cb384e062f165bcf9c83732125bffbc2ad83d"
+  integrity sha512-quBx4Jjpexo6KDiNUGFr/zF/2A4srKM9S9v2uHgMXSU//hjgq1eGzqkIFql8T9gfX5ZaVOUzYBP3jIdIR3PKIA==
+
 "@vue/eslint-config-airbnb@^5.3.0":
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/@vue/eslint-config-airbnb/-/eslint-config-airbnb-5.3.0.tgz#896551d600816a06dff13fdd7d04fd5153379817"
@@ -5945,6 +5950,11 @@ loader-utils@^2.0.0:
     emojis-list "^3.0.0"
     json5 "^2.1.2"
 
+loaders.css@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/loaders.css/-/loaders.css-0.1.2.tgz#3a9fb43726c73334a38142af9d0629019b658743"
+  integrity sha1-Op+0NybHMzSjgUKvnQYpAZtlh0M=
+
 locate-path@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
@@ -9526,6 +9536,13 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^4.0.11:
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.11.tgz#cd649a0941c635281763a20965b599643ddc68ed"
+  integrity sha512-sha6I8fx9HWtvTrFZfxZkiQQBpqSeT+UCwauYjkdOQYRvwsGwimlQQE2ayqUwuuXGzquFpCPoXzYKWlzL4OuXg==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.14"
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"

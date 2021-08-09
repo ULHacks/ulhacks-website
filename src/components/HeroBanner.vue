@@ -1,7 +1,7 @@
 <template lang="pug">
 .hero-banner__container.h-screen
 	.hero-banner__content.flex.flex-col.absolute.h-screen.justify-center
-		div(class='mt-24 md:mt-none')
+		.mt-24(class='md:mt-none')
 			.text-7xl.text-center.font-black ULHacks 2021
 			.h-8
 			.flex.flex-row.flex-wrap.justify-evenly
