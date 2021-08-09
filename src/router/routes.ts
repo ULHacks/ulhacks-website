@@ -21,6 +21,13 @@ export const routes: RouteRecordRaw[] = [
 		},
 	},
 	{
+		path: '/instagram',
+		component: () => import('~/pages/InstagramRedirect.vue'),
+		beforeEnter() {
+			window.location.href = 'https://instagram.com/ulhacks';
+		},
+	},
+	{
 		path: '/:catchAll(.*)',
 		redirect: '/',
 	},
