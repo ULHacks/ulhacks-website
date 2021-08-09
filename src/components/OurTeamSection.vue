@@ -58,14 +58,14 @@ const teamMembers = [
 		photoUrl: '/images/david_dragon_he.jpg',
 		description:
 			'Hi, I like to learn, and I like to program. I like to create projects that benefit society.',
-		role: 'Website Developer',
+		role: 'Developer & Workshop Host',
 	},
 	{
 		name: 'Kevin Xu',
 		photoUrl: '/images/kevin_xu.jpg',
 		description:
 			"Hi, I'm Kevin, and I like coding, business and mathematics. I love to learn new languages with new projects and think up new ideas.",
-		role: 'General Advisor',
+		role: 'Marketing & General Advisor',
 	},
 ];
 
