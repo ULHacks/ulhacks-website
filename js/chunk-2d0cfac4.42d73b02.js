@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0cfac4"],{"655d":function(e,c,r){"use strict";r.r(c);var t=r("7a23");function n(e,c,r,n,a,o){var d=Object(t["w"])("RedirectScreen");return Object(t["o"])(),Object(t["d"])(d,{redirectText:"Redirecting you to our Instagram page..."})}var a=r("6586"),o=Object(t["f"])({components:{RedirectScreen:a["a"]}});o.render=n;c["default"]=o}}]);
+//# sourceMappingURL=chunk-2d0cfac4.42d73b02.js.map
