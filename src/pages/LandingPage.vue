@@ -8,6 +8,8 @@
 	SectionSeparator
 	SponsorsSection
 	SectionSeparator
+	PrizesSection
+	SectionSeparator
 	OurTeamSection
 	SectionSeparator
 	ContactSection
@@ -19,6 +21,7 @@ import HeroBanner from '~/components/HeroBanner.vue';
 import IntroductionSection from '~/components/IntroductionSection.vue';
 import NavigationBar from '~/components/NavigationBar.vue';
 import OurTeamSection from '~/components/OurTeamSection.vue';
+import PrizesSection from '~/components/PrizesSection.vue';
 import QuestionsSection from '~/components/QuestionsSection.vue';
 import SectionSeparator from '~/components/SectionSeparator.vue';
 import SponsorsSection from '~/components/SponsorsSection.vue';
@@ -31,6 +34,7 @@ export default {
 		IntroductionSection,
 		QuestionsSection,
 		SponsorsSection,
+		PrizesSection,
 		OurTeamSection,
 		ContactSection,
 		SectionSeparator,
