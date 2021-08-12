@@ -44,7 +44,7 @@ const prizes: Prize[] = [
 	{
 		name: 'Top 6',
 		description: outdent`
-			- The top 6 projects will each recieve a Wolfram Award—a year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro
+			- The top 6 projects will each receive a Wolfram Award—a year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro
 		`,
 	},
 	{
