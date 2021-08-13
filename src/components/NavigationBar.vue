@@ -11,7 +11,7 @@ mixin link(href, name)
 	:class='[isPinned ? "bg-gray-800" : "bg-transparent"]'
 )
 	a.transform.transition-transform(href='#', class='hover:scale-105')
-		img.h-20(src='@/assets/logo.png')
+		img.h-20.w-20(src='@/assets/logo.png', class='min-w-[5rem]')
 	.navigation-bar__tabs-container.flex.flex-col.items-end
 		.relative
 			MenuIcon.text-white.h-14.w-14.cursor-pointer.transform.transition-transform(
