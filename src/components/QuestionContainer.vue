@@ -62,8 +62,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 .question-container__answer {
 	white-space: break-spaces;
+	@apply border-t-2 border-gray-200;
 }
 </style>

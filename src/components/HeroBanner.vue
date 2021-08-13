@@ -14,9 +14,9 @@
 					.w-2
 					.text-lg.font-bold.leading-loose August 13th - 15th, 2021
 			.flex.flex-row.justify-center.items-center.h-32.text-xl
-				a.bg-white.text-ul-blue.py-4.px-8.rounded-lg.transform.transition-transform(
+				a.bg-white.text-ul-blue.py-4.px-8.rounded-lg.transform.transition-all.text-center(
 					href='https://ulhacks.devpost.com/',
-					class='hover:scale-105'
+					class='hover:scale-105 hover:bg-ul-blue-dark hover:text-white'
 				) Register for ULHacks on Devpost!
 	#particles-js.hero-banner__particles.h-screen
 </template>

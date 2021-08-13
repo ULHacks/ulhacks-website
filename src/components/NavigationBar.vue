@@ -1,7 +1,8 @@
 <template lang="pug">
 mixin link(href, name)
-	a.px-8.py-2(
-		class='hover:text-ul-blue-dark md:py-0 md:px-4',
+	a.mx-8.my-2.transition-colors.font-bold(
+		class='md:my-0 md:mx-4',
+		:class='[isPinned ? "hover:text-ul-blue" : "hover:text-ul-blue-dark"]',
 		href=href,
 		@click='scrollToId'
 	)= name
@@ -9,7 +10,8 @@ mixin link(href, name)
 .fixed.z-50.w-full.flex.flex-row.justify-between.items-center.py-4.px-8.transition-all(
 	:class='[isPinned ? "bg-gray-800" : "bg-transparent"]'
 )
-	img.h-20(src='@/assets/logo.png')
+	a.transform.transition-transform(href='#', class='hover:scale-105')
+		img.h-20(src='@/assets/logo.png')
 	.navigation-bar__tabs-container.flex.flex-col.items-end
 		.relative
 			MenuIcon.text-white.h-14.w-14.cursor-pointer.transform.transition-transform(
